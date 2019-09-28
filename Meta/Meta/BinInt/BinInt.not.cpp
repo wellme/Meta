@@ -1,5 +1,5 @@
-
 #pragma once
+
 #include "BinInt.cpp"
 
 namespace Meta::BinInt {
