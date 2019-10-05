@@ -159,6 +159,7 @@
     <ClCompile Include="Meta\BinInt\BinInt.and.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.gt.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.is_null.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.lengthen.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.minus.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.modulo.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.not.cpp" />

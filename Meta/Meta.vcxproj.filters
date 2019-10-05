@@ -1,44 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.xor.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.and.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.reverse.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.not.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.simplify.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.modulo.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.gt.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.minus.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.add.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\BinInt\BinInt.is_null.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Meta\Ternary.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <ClCompile Include="Meta\BinInt\BinInt.add.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.and.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.gt.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.is_null.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.minus.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.modulo.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.not.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.reverse.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.simplify.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.xor.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Meta\Ternary.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.lengthen.cpp" />
   </ItemGroup>
 </Project>
