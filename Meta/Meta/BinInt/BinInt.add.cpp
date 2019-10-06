@@ -30,6 +30,6 @@ namespace Meta::BinInt {
 	template<typename T1, typename T2>
 	struct Add {
 		using lengthen = Lengthen<T1, T2>;
-		using type = typename AddInternals::Loop<typename lengthen::type1, typename lengthen::type2, typename lengthen::type2>::type;
+		using type = typename AddInternals::Loop<typename LengthenOne<typename lengthen::type1>::type, typename LengthenOne<typename lengthen::type2>::type, typename LengthenOne<typename lengthen::type1>::type>::type;
 	};
 }
