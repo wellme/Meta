@@ -12,7 +12,7 @@ void main() {
 	using n1 = BinIntTrue<void>;
 	using n2 = BinIntTrue<BinIntFalse<void>>;
 
-	using result = Lengthen<n1, n2>::type1;
+	using result = Add<n1, n2>::type;
 
 	printf("%d + %d = %d\n", n1::value, n2::value, result::value);
 }
