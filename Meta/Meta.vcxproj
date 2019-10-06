@@ -164,6 +164,7 @@
     <ClCompile Include="Meta\BinInt\BinInt.modulo.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.not.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.reverse.cpp" />
+    <ClCompile Include="Meta\BinInt\BinInt.shift.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.simplify.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.xor.cpp" />
     <ClCompile Include="Meta\BinInt\BinInt.cpp" />
