@@ -33,4 +33,17 @@ namespace Meta::BinInt {
 		using type1 = T1<typename lengthener::type1>;
 		using type2 = T2<typename lengthener::type2>;
 	};
+
+	template<typename T>
+	struct LengthenOne;
+
+	template<template<typename> typename T>
+	struct LengthenOne<T<void>> {
+		using type = T<T<void>>;
+	};
+
+	template<typename TArg, template <typename TArg> typename T>
+	struct LengthenOne<T<TArg>> {
+		using type = T<typename LengthenOne<TArg>::type>;
+	};
 }
